@@ -1,0 +1,65 @@
+/*General*/
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0px;
+	color: #167D7F;
+	background-color: #DDFFE7;
+}
+
+/*Desktop*/
+@media (min-width: 500px) {
+	.header_container_12_dsk {
+		width: 100%;
+		font-weight: bold;
+		font-size: 200%;
+		padding: 8px;
+		background-color: #98D7C2;
+		border-bottom: #167D7F solid 1px;
+	}
+
+	.dropdown_container_4_dsk {
+		width: 33.33%;
+		float: left;
+		padding: 8px;
+		text-align: center;
+		font-weight: bold;
+	}
+
+	.recipe_container_12_dsk {
+		width: 100%;
+		padding: 8px;
+		padding-top: 80px;
+		text-align: center;
+		font-weight: bold;
+	}
+}
+
+/*Mobile*/
+@media (max-width: 499px) {
+	.header_container_12_mbl {
+		width: 100%;
+		font-weight: bold;
+		font-size: 200%;
+		padding: 8px;
+		background-color: #98D7C2;
+		border-bottom: #167D7F solid 1px;
+	}
+
+	.dropdown_container_12_mbl {
+		width: 100%;
+		padding: 8px;
+		text-align: center;
+		font-weight: bold;
+	}
+
+	.recipe_container_12_mbl {
+		width: 100%;
+		padding: 8px;
+		padding-top: 40px;
+		text-align: center;
+		font-weight: bold;
+	}
+}
